@@ -1,171 +1,56 @@
-
-<!doctype html>
-<html class="no-js" lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alexandros Savvidis | Cybersecurity Professional</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
 <body>
-
+  <header class="resume-header">
     <div class="grid-container">
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
-          <h1>Welcome to Foundation</h1>
-        </div>
-      </div>
-
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
-          <div class="callout">
-            <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-            <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-            <p>Once you've exhausted the fun in this document, you should check out:</p>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 cell">
-                <p><a href="https://get.foundation/sites/docs/">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-              </div>
-              <div class="large-4 medium-4 cell">
-                <p><a href="https://github.com/foundation/foundation-sites/discussions">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 medium-push-2 cell">
-                <p><a href="https://github.com/foundation/foundation-sites">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-              </div>
-              <div class="large-4 medium-4 medium-pull-2 cell">
-                <p><a href="https://twitter.com/FoundationCSS">@FoundationCSS</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="grid-x grid-padding-x">
-        <div class="large-8 medium-8 cell">
-          <h5>Here&rsquo;s your basic grid:</h5>
-          <!-- Grid Example -->
-
-          <div class="grid-x grid-padding-x">
-            <div class="large-12 cell">
-              <div class="primary callout">
-                <p><strong>This is a twelve cell section in a grid-x.</strong> Each of these includes a div.callout element so you can see where the cell are - it's not required at all for the grid.</p>
-              </div>
-            </div>
-          </div>
-          <div class="grid-x grid-padding-x">
-            <div class="large-6 medium-6 cell">
-              <div class="primary callout">
-                <p>Six cell</p>
-              </div>
-            </div>
-            <div class="large-6 medium-6 cell">
-              <div class="primary callout">
-                <p>Six cell</p>
-              </div>
-            </div>
-          </div>
-          <div class="grid-x grid-padding-x">
-            <div class="large-4 medium-4 small-4 cell">
-              <div class="primary callout">
-                <p>Four cell</p>
-              </div>
-            </div>
-            <div class="large-4 medium-4 small-4 cell">
-              <div class="primary callout">
-                <p>Four cell</p>
-              </div>
-            </div>
-            <div class="large-4 medium-4 small-4 cell">
-              <div class="primary callout">
-                <p>Four cell</p>
-              </div>
-            </div>
-          </div>
-
-          <hr />
-
-          <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-          <form>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-12.cell" />
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 cell">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-4.cell" />
-              </div>
-              <div class="large-4 medium-4 cell">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-4.cell" />
-              </div>
-              <div class="large-4 medium-4 cell">
-                <div class="grid-x">
-                  <label>Input Label</label>
-                  <div class="input-group">
-                    <input type="text" placeholder="small-9.cell" class="input-group-field" />
-                    <span class="input-group-label">.com</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Select Box</label>
-                <select>
-                  <option value="husker">Husker</option>
-                  <option value="starbuck">Starbuck</option>
-                  <option value="hotdog">Hot Dog</option>
-                  <option value="apollo">Apollo</option>
-                </select>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-6 medium-6 cell">
-                <label>Choose Your Favorite</label>
-                <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-                <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-              </div>
-              <div class="large-6 medium-6 cell">
-                <label>Check these out</label>
-                <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-                <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Textarea Label</label>
-                <textarea placeholder="small-12.cell"></textarea>
-              </div>
-            </div>
-          </form>
-        </div>
-
-        <div class="large-4 medium-4 cell">
-          <h5>Try one of these buttons:</h5>
-          <p><a href="#" class="button">Simple Button</a><br/>
-            <a href="#" class="success button">Success Btn</a><br/>
-            <a href="#" class="alert button">Alert Btn</a><br/>
-            <a href="#" class="secondary button">Secondary Btn</a></p>
-          <div class="callout">
-            <h5>So many components, girl!</h5>
-            <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-            <a href="https://get.foundation/sites/docs/" class="small button">Go to Foundation Docs</a>
-          </div>
-        </div>
-      </div>
+      <p class="eyebrow">Cybersecurity Professional</p>
+      <h1>Alexandros Savvidis</h1>
+      <p class="headline">SOC Analyst | Security Operations | Threat Detection</p>
+      <div class="skill-tags"><span>SOC Operations</span><span>SIEM</span><span>Incident Response</span><span>Threat Detection</span></div>
     </div>
-
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+  </header>
+  <main class="grid-container">
+    <section class="resume-section" id="summary">
+      <h2>Professional Summary</h2>
+      <p>Level 1 SOC Analyst with over a year of experience at a Managed Security Service Provider (MSSP) in Greece, monitoring more than 100 organizations across Greece and Cyprus in sectors including maritime, energy, education, government, banking, legal, and corporate services. Experienced in supporting a key client as a dedicated SOC Analyst under strict SLAs. Familiar with IBM QRadar SIEM, Microsoft Sentinel, Microsoft Defender XDR, FortiSOAR, FortiEDR, and Cisco Secure Endpoint. Actively developing technical skills through TryHackMe, Hack The Box, Centri, and OffSec training.</p>
+    </section>
+    <section class="resume-section" id="skills">
+      <h2>Technical Skills</h2>
+      <div class="grid-x grid-margin-x">
+        <div class="cell medium-6 skill-group"><h3>Security Platforms</h3><p>IBM QRadar SIEM, Microsoft Sentinel, Microsoft Defender XDR, FortiSOAR, FortiEDR, Cisco Secure Endpoint</p></div>
+        <div class="cell medium-6 skill-group"><h3>Security Operations</h3><p>Security monitoring, alert triage, incident analysis, threat detection, escalation, SLA-driven operations</p></div>
+        <div class="cell medium-6 skill-group"><h3>Professional Focus</h3><p>SOC operations, incident response, security event investigation, continuous learning</p></div>
+        <div class="cell medium-6 skill-group"><h3>Training Platforms</h3><p>TryHackMe, Hack The Box, Centri, OffSec</p></div>
+      </div>
+    </section>
+    <section class="resume-section" id="education">
+      <h2>Education</h2>
+      <article class="resume-item"><div class="item-heading"><h3>Illinois Institute of Technology</h3><span class="date">2025–2027</span></div><p>Bachelor’s Degree in Information Technology</p></article>
+      <article class="resume-item"><div class="item-heading"><h3>University of Western Macedonia</h3><span class="date">2020–2025</span></div><p>Computer Science coursework; studies discontinued following a credit-transfer decision.</p></article>
+    </section>
+    <section class="resume-section" id="certifications">
+      <h2>Certifications</h2>
+      <div class="grid-x grid-margin-x certification-grid">
+        <article class="cell small-6 medium-3 certification"><img src="https://images.credly.com/size/340x340/images/2030e43f-8003-4d4b-9630-847add403c87/image.png" alt="ISC2 Certified in Cybersecurity badge" loading="lazy"><h3>Certified in Cybersecurity (CC)</h3><p>ISC2 · January 2024</p></article>
+        <article class="cell small-6 medium-3 certification"><img src="https://images.credly.com/size/340x340/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob" alt="CompTIA Security+ badge" loading="lazy"><h3>CompTIA Security+</h3><p>December 2025</p></article>
+        <article class="cell small-6 medium-3 certification"><img src="https://images.credly.com/size/340x340/images/fc0df734-6716-45ba-8563-9fd0eba18373/blob" alt="TryHackMe Security Analyst Level 1 badge" loading="lazy"><h3>Security Analyst Level 1 (SAL1)</h3><p>TryHackMe · July 2026</p></article>
+        <article class="cell small-6 medium-3 certification"><img src="https://images.credly.com/size/340x340/images/276d8595-f4e0-457b-adc8-aab85ee221bf/blob" alt="Blue Team Level 1 badge" loading="lazy"><h3>Blue Team Level 1</h3><p>Centri · July 2026</p></article>
+      </div>
+    </section>
+    <section class="resume-section" id="contact">
+      <h2>Contact</h2>
+      <div class="contact-details"><p><strong>Email:</strong> <a href="mailto:asavvidis@hawk.illinoistech.edu">asavvidis@hawk.illinoistech.edu</a></p><p><strong>Phone:</strong> +3069XXXXXXXX</p><p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/example-profile" target="_blank" rel="noopener noreferrer">View LinkedIn Profile</a></p></div>
+    </section>
+  </main>
+  <footer class="resume-footer"><p>© <span id="current-year"></span> Alexandros Savvidis</p></footer>
+</body>
 </html>
